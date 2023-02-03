@@ -1,7 +1,7 @@
 use leptos::*;
 use leptos_meta::*;
 use leptos_router::*;
-use crate::components::{counter::*, about::*};
+use super::components::{counter::*, about::*};
 
 #[component]
 pub fn App(cx: Scope) -> impl IntoView {
